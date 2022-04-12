@@ -1,0 +1,24 @@
+org.example.pe.example.processor.title=ExampleProcessor
+org.example.pe.example.processor.description=Description of data processor
+
+example-key.title=Example Text Parameter
+example-key.description=Example Text Parameter Description
+
+threshold.title = Threshold
+threshold.description = Threshold value to apply to filtering
+
+value.title=Input value to observe
+value.description=Specify value to be monitored
+
+operation_filter.title=Operation
+operation_filter.description=Operation Description
+
+
+operation_trend.title=Increase/Decrease
+operation_trend.description=Specifies the type of operation the processor should perform.
+
+increase.title=Percentage of Increase/Decrease
+increase.description=Specifies the increase in percent (e.g., 100 indicates an increase by 100 percent within the specified time window.
+
+duration.title=Time Window Length (Seconds)
+duration.description=Specifies the size of the time window in seconds.
