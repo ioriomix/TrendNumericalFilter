@@ -1,4 +1,4 @@
-package org.example.pe.example;
+package org.gft.pe.trendfiltered;
 
 public enum TrendFilteredOperator {
     INCREASE, DECREASE

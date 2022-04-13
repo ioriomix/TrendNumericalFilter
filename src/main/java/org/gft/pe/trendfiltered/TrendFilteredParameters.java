@@ -1,4 +1,4 @@
-package org.example.pe.example;
+package org.gft.pe.trendfiltered;
 
 import org.apache.streampipes.wrapper.params.binding.EventProcessorBindingParams;
 import org.apache.streampipes.model.graph.DataProcessorInvocation;

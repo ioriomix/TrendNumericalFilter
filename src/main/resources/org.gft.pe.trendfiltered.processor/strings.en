@@ -1,5 +1,6 @@
-org.example.pe.example.processor.title=ExampleProcessor
-org.example.pe.example.processor.description=Description of data processor
+org.gft.pe.trendfiltered.processor.title=TrendFiltered
+org.gft.pe.trendfiltered.processor.description=It detects the increase of a numeric field previously filtered according to a certain threshold, in a customizable time window. Example: A temperature value, filtered to only obtain values greater than 7, increases by 10 percent within 5 minutes.
+
 
 example-key.title=Example Text Parameter
 example-key.description=Example Text Parameter Description

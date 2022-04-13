@@ -16,7 +16,7 @@
  *
  */
 
-package org.example.pe.example;
+package org.gft.pe.trendfiltered;
 
 import org.apache.streampipes.commons.exceptions.SpRuntimeException;
 import org.apache.streampipes.model.DataProcessorType;
@@ -37,24 +37,20 @@ import java.util.List;
 
 public class TrendFilteredController extends StandaloneEventProcessingDeclarer<TrendFilteredParameters> {
 
-  private static final String EXAMPLE_KEY = "example-key";
-
   private static final String THRESHOLD = "threshold";
   private static final String INPUT_VALUE = "value";
   private static final String OPERATION_FILTER = "operation_filter";
 
   private double threshold;
-  private String filterProperty;
 
   private static final String INCREASE = "increase";
   private static final String OPERATION_TREND = "operation_trend";
   private static final String DURATION = "duration";
-  private static final String Mapping = "mapping";
 
 
   @Override
   public DataProcessorDescription declareModel() {
-    return ProcessingElementBuilder.create("org.example.pe.example.processor")
+    return ProcessingElementBuilder.create("org.gft.pe.trendfiltered.processor")
             .withAssets(Assets.DOCUMENTATION, Assets.ICON)
             .withLocales(Locales.EN)
             .category(DataProcessorType.AGGREGATE)
